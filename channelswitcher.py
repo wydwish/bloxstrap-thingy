@@ -22,5 +22,7 @@ if os.path.isfile(settings_file_path):
         file.truncate()
         
     print("Your channel has now been set to 'Live' and Bloxstrap will prompt you if it attempts to be changed.")
+    input("Click Enter to exit :3")
 else:
-    print("Cannot find settings.json file for Bloxstrap. Make sure you have Bloxstrap installed!")
+    print("Cannot find settings.json file for Bloxstrap. Make sure you have Bloxstrap installed!")  
+    input("Click Enter to exit :3")
